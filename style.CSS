@@ -1,0 +1,32 @@
+/* Title - CSS grid exercises*/
+
+
+/*.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}*/
+.grid-container {
+  /*display: grid;*/
+  display: inline-grid;
+  /*grid-template-columns: 100px 80px*/;
+  grid-template-columns: 120px 120px;
+  background-color: chartreuse;
+  padding: 7px;
+}
+
+.grid-item {
+  background-color: blanchedalmond;
+  border: 2px solid crimson;
+  padding: 15px;
+  font-size: medium;
+  text-align: center;
+}
